@@ -54,7 +54,7 @@ CREATE TABLE IF NOT EXISTS student (
 	id SERIAL PRIMARY KEY,
 	 name VARCHAR(100) NOT NULL,
 	 description TEXT,
-	 participation_rate VARCHAR(100)
+	 participation_rate VARCHAR(100) NOT NULL
  );
  
  
